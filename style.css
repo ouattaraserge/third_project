@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'ambleregular';
+    src: url('Amble-Regular-webfont.eot');
+    src: url('Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('Amble-Regular-webfont.woff2') format('woff2'),
+        url('Amble-Regular-webfont.woff') format('woff'),
+        url('Amble-Regular-webfont.ttf') format('truetype'),
+        url('Amble-Regular-webfont.svg#ambleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    border: 2px solid blue;
+    background-color: azure;
+}
+header{
+  border: 2px solid green;
+    background-color: forestgreen;
+    color: yellow
+}
+section{
+    border: 1px solid red;
+}
+section h1{
+    font-family: cursive;
+}
+nav{
+   border: 1px solid green; 
+    background-color: forestgreen;
+    color: yellow;
+}
+footer{
+    border: 3px solid black;
+    display: flex;
+    justify-content:space-around;
+    background-color: forestgreen;
+}
+h1, h2{
+    text-align: center;
+}
