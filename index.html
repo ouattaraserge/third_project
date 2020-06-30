@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="icons/favicon.ico">
+    <link rel="shortcut icon" href="images/icons/favicon.ico">
     <link rel="icon" href="icons/favicon.png" sizes="32x32">
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" media="screen and (max-width: 1024px)" href="petite_resolution.css" />
@@ -14,38 +14,64 @@
 </head>
 
 <body>
+    <!--en tête ici--> 
     <header>
+        <a href="index.html" title="Accueil">
         <h1>ohmyfood</h1>
+        </a>
     </header>
-    <div id="bloc_page">
-        <section>
-            <!--icone musique à mettre ici-->
-            <h1>La note enchantée</h1>
+    <!--partie menus-->
+    <main>
+       <div class="Menu">
+        <section class="menu1">
+            <a href="menu1.html" title="La note enchantée">
+                <h3 class="font1">
+                    <span class="icon_music">
+                        <!--icone musique à mettre ici-->
+                        <i class="fas fa-music"></i> 
+                    </span>
+                    <br /> La note enchantée
+                </h3>
             <h2>MENU</h2>
+            </a>
         </section>
-        <section>
-            <h1>Le chic à la française</h1>
+        <section class="menu2">
+            <a href="menu2.html" title="Le chic à la française"
+            <h3 class="degrade1">Le chic à la française</h3>
             <h2>Menu</h2>
+        </a>
         </section>
-        <section>
-            <h1>Le délice des papilles</h1>
+       </div>
+       <div class="Menu">
+        <section class="menu3">
+            <a href="menu3.html" title="Le délice des papilles"
+            <h3 class="degrade2">Le délice des papilles</h3>
             <h2>Menu</h2>
+            </a>
         </section>
-        <section>
-            <h1>La palette du goût</h1>
+        <section class="menu4"
+            <a href="menu3.html" title="La palette du goût">
+                <h3 class="degrade3">La palette du goût</h3>
             <h2>Menu</h2>
+            </a>
         </section>
-        <nav>
-            <h1>Prochainement</h1>
-        </nav>
-    </div>
+        </div>
+        <aside>
+            <h2 class="loading">
+                Prochainement
+                <span class="dot1">.</span>
+                <span class="dot2">.</span>
+                <span class="dot3">.</span>
+            </h2>
+        </aside>
+    </main>
     <footer>
-        <nav>
-            <h1>Mentions légales</h1>
-        </nav>
-        <nav>
-            <h1>Contactez-nous</h1>
-        </nav>
+        <div class="mentions">
+            <h2>Mentions légales</h2>
+        </div>
+        <div class="contact">
+            <h2>Contactez-nous</h2>
+        </div>
     </footer>
 
 </body>
