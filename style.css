@@ -1,11 +1,21 @@
 @font-face {
     font-family: 'ambleregular';
-    src: url('Amble-Regular-webfont.eot');
-    src: url('Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-        url('Amble-Regular-webfont.woff2') format('woff2'),
-        url('Amble-Regular-webfont.woff') format('woff'),
-        url('Amble-Regular-webfont.ttf') format('truetype'),
-        url('Amble-Regular-webfont.svg#ambleregular') format('svg');
+    src: url('polices/amble/Amble-Regular-webfont.eot');
+    src: url('polices/amble/Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('polices/amble/Amble-Regular-webfont.woff2') format('woff2'),
+        url('polices/amble/Amble-Regular-webfont.woff') format('woff'),
+        url('polices/amble/Amble-Regular-webfont.ttf') format('truetype'),
+        url('polices/amble/Amble-Regular-webfont.svg#ambleregular') format('svg');
+    font-family: 'judson';
+    src: url('polices/judson/Judson-Bold.otf');
+    src: url('polices/judson/Judson-Regular.otf');
+    font-family: 'montserrat';
+    src: url('polices/montserrat/montserrat-regular.otf')
+    font-family: 'kalam';
+    src: url('polices/kalam/kalam-regular.ttf')
+    font-family: 'SourceSerifPro';
+    src: url('polices/sourcesserifpro/SourceSerifPro-Regular.otf')
+
     font-weight: normal;
     font-style: normal;
 }
@@ -22,6 +32,7 @@ main {
 body {
     background-color: azure;
     display: block;
+    margin: auto;
 }
 
 header {
@@ -29,6 +40,7 @@ header {
     background-color: #579c87;
     display: flex;
     justify-content: center;
+    text-align: center;
     flex-direction: column;
     height: 90px;
     font-family: "montserrat", sans-serif;
@@ -49,6 +61,7 @@ h1 {
     margin-block-end: 0.67em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    font-family: 'verdana';
 }
 a {
     color: #fdcb46;
@@ -63,29 +76,88 @@ a {
     display: flex;
     justify-content: center;
     margin: 30px;
+
+}
+.carte-menu {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+    width: 90%;
 }
 .menu1 {
     background-color: #fcdfdb;
     color: #3c1218;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'kalam', cursive;
     font-weight: lighter;
+}
+.subtitle1 {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
+.subtitle2 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.plat {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    margin: auto;
+}
+
+.page1{
+    background-color: #fcdfdb;
+    color: #3c1218;
+    font-family: "kalam", cursive;
+    font-weight: 100;
+    padding-top: 30px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+}
+.page1 .prix {
+    font-weight: bold;
+}
+.page2 {
+    background-color: #fff5fe;
+    color: #c77412;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 100;
 }
 .menu2 {
     background-color: #fff5fe;
     color: #c77412;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'source serif Pro', serif;
     font-weight: 100;
 }
 .menu3 {
     background-color: #f9f9f9;
     color: #2b91f8;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 100;
+    font-family: 'kalam', cursive;
 }
 .menu4 {
     background-color: #fdfffd;
     color: #72bf56;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'kalam',cursive;
+}
+.title {
+    border: none;
+    box-shadow: none;
+    width: auto;
+    height: auto;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-inline-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 section {
     display: flex;
@@ -101,24 +173,24 @@ section {
 .menu1 a {
     background-color: #fcdfdb;
     color: #3c1218;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'kalam', cursive;
     font-weight: lighter;
 }
 .menu2 a {
     background-color: #fff5fe;
     color: #c77412;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'source serif Pro', serif;
     font-weight: 100;
 }
 .menu3 a {
     background-color: #f9f9f9;
     color: #2b91f8;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'kalam', cursive;
 }
 .menu4 a {
     background-color: #fdfffd;
     color: #72bf56;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'kalam',cursive;
 }
 .menu h3 {
     font-size: 1.9em;
@@ -161,9 +233,6 @@ footer {
 }
 .fa, .fas {
     font-weight: 900;
-}
-.fa, .fab, .fad, .fal, .far, .fas {
-
 }
 
 
