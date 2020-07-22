@@ -7,13 +7,13 @@
         url('polices/amble/Amble-Regular-webfont.ttf') format('truetype'),
         url('polices/amble/Amble-Regular-webfont.svg#ambleregular') format('svg');
     font-family: 'Dancing';
-    src: url(polices/Dancing/DancingSript-Regular.otf);
+    src: url('polices/Dancing/Dancing Sript-Regular.otf');
     font-family: 'sourceserifpro';
     src: url('polices/sourceserifpro/SourceSerifPro-Regular.otf');
     font-family: 'kurale';
     src: url('polices/kurale/Kurale-regular.otf');
     font-family: 'kaushan';
-    src: url('polices/kaushan/KaushanScript-Regular.otf');
+    src: url('polices/kaushan/Kaushan Script-Regular.otf');
     font-family: 'judson';
     src: url('polices/judson/Judson-Bold.otf');
     src: url('polices/judson/Judson-Regular.otf');
@@ -23,6 +23,27 @@
     src: url('polices/kalam/kalam-regular.ttf');
     font-weight: normal;
     font-style: normal;
+}
+/*keyframes wiggle*/
+@keyframes wiggle {
+    25% {
+        transform: translateX(5%);
+    }
+    75% {
+        transform: translateX(-5%);
+    }
+}
+/*keyframes dots*/
+@keyframes dots {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 /*page principale*/
 main {
@@ -55,6 +76,81 @@ body {
 .menu h3 {
     font-size: 1.9em;
 }
+.carte-menu {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+    width: 90%;
+    height: auto;
+}
+/*menu1 page principale*/
+.menu1 {
+    background-color: #fcdfdb;
+    color: #3c1218;
+    font-family: 'kalam', cursive;
+    font-weight: lighter;
+}
+.menu1 a {
+    background-color: #fcdfdb;
+    color: #3c1218;
+    font-family: "Kalam", cursive;
+    font-weight: lighter;
+  }
+  .menu1 .font1 {
+    font-family: "Devonshire", cursive;
+  }
+  
+/*Menu2 page principale*/
+.menu2 {
+    background-color: #fff5fe;
+    color: #c77412;
+    font-family: "Source Serif Pro", serif;
+    font-weight: 100;
+  }
+  
+  .menu2 a {
+    background-color: #fff5fe;
+    color: #c77412;
+    font-family: "Source Serif Pro", serif;
+    font-weight: 100;
+  }
+  
+/*Menu3 page principale*/
+.menu3 {
+    background-color: #f9f9f9;
+    color: #2b91f8;
+    font-family: "Kalam", cursive;
+  }
+  
+  .menu3 a {
+    background-color: #f9f9f9;
+    color: #2b91f8;
+    font-family: "Kalam", cursive;
+  }
+  
+  .menu3 h2 {
+    font-weight: 300;
+  }
+  
+  /*Menu4 page principale*/
+  .menu4 {
+    background-color: #fdfffd;
+    color: #72bf56;
+    font-family: "Kalam", cursive;
+  }
+  
+  .menu4 a {
+    background-color: #fdfffd;
+    color: #72bf56;
+    font-family: "Kalam", cursive;
+  }
+  
+  .menu4 h2 {
+    font-weight: 300;
+  }
 /* header */
 header {
     font-size: 1.3em;
@@ -110,22 +206,6 @@ a {
     flex-direction: column;
     justify-content: center;
 }
-.carte-menu {
-    display: flex;
-    justify-content: center;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-    margin-left: auto;
-    width: 90%;
-    height: auto;
-}
-.menu1 {
-    background-color: #fcdfdb;
-    color: #3c1218;
-    font-family: 'kalam', cursive;
-    font-weight: lighter;
-}
 .subtitle1 {
     display: flex;
     justify-content: center;
@@ -153,6 +233,12 @@ a {
     padding-right: 100px;
     padding-bottom: 30px;
     padding-left: 100px;
+}
+.page1 a {
+    background-color: #fcdfdb;
+    color: #3c1218;
+    font-family: 'kalam', cursive;
+    font-weight: lighter;
 }
 .page1 .font1 {
     font-family: "Devonshire", cursive;
@@ -199,11 +285,20 @@ div {
 .page3 h2 {
     font-weight: 400;
 }
+.page3 a {
+    background-color: #f9f9f9;
+    color: #2b91f8;
+    font-family: "kalam", cursive;
+}
+.page3 .font_color_pages {
+    color: #000000;
+}
 /*page4*/
 .page4 {
     background-color: #fdfffd;
     color: #72bf56;
     font-family: 'kalam',cursive;
+    padding: 30px 100px 30px 100px;
 }
 .page4 a {
     background-color: #fdfffd;
@@ -211,7 +306,22 @@ div {
     font-family: "kalam", cursive;
 }
 .page4 h2 {
-    font-weight: 300;
+    font-weight: 400;
+}
+.page4 .font_color_pages {
+    color: #000000;
+}
+/*page 5 mentions légales*/
+.page5 {
+    background-color: #fff5fe;
+    color: #3c1218;
+    padding: 20px;
+    text-align: left;
+}
+  
+.page5 a {
+    color: #579c87;
+    text-align: left;
 }
 .title {
     border: none;
@@ -240,6 +350,9 @@ section {
 .degrade1 {
     background-image: linear-gradient(0.25turn, #c77412 30%, #905bfd 70%);
     font-family: "Kurale", serif;
+    font-size: 2.5em;
+    background-clip: initial;
+    -webkit-background-clip: text;
     color: transparent;
 }
 .degrade2 {
@@ -296,7 +409,7 @@ section {
     margin-bottom: auto;
     margin-left: auto;
 }
-
+/*animation zoom*/
 .zoom {
     transform: scale(0.8);
     opacity: 1;
@@ -305,22 +418,9 @@ section {
     transition-timing-function: ease-in-out;
     transition-delay: 0s;
 }
-.menu1 a {
-    background-color: #fcdfdb;
-    color: #3c1218;
-    font-family: 'kalam', cursive;
-    font-weight: lighter;
-}
-.menu2 a {
-    background-color: #fff5fe;
-    color: #c77412;
-    font-family: 'source serif Pro', serif;
-    font-weight: 100;
-}
-.menu3 a {
-    background-color: #f9f9f9;
-    color: #2b91f8;
-    font-family: 'kalam', cursive;
+.zoom:hover {
+    transform: scale(1);
+    opacity: 0.3;
 }
 .menu4 a {
     background-color: #fdfffd;
@@ -385,6 +485,9 @@ footer {
     color: #fdcb46;
     text-align: center;
     height: 60px;
+    margin: auto;
+    bottom: 0;
+    position: sticky;
 }
 footer .contact {
     padding-top: 0px;
@@ -397,6 +500,11 @@ footer h2 {
     font-size: 1.2em;
     font-weight: 500;
 }
+/*animation footer*/
+.anim:hover {
+    animation: wiggle 150ms infinite ease-in-out;
+}
+/*icon music*/
 .icon_music .fas {
     display: inline-block;
     color: transparent;
