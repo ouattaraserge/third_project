@@ -74,7 +74,7 @@ body {
     font-size: 2.3em;
 }
 .menu h3 {
-    font-size: 1.9em;
+    font-size: 1.7em;
 }
 .carte-menu {
     display: flex;
@@ -375,7 +375,7 @@ section {
 /*soulignement decoration*/
 .line_left1 {
     display: inline-block;
-    height: 8px;
+    height: 12px;
     width: 220px;
     margin-top: auto;
     margin-right: auto;
@@ -393,7 +393,7 @@ section {
 }
 .line_right1 {
     display: inline-block;
-    height: 8px;
+    height: 12px;
     width: 220px;
     margin-top: auto;
     margin-right: 0px;
