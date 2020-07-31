@@ -56,6 +56,7 @@ main {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    width: 75%;
 }
 body {
     background-color: azure;
@@ -220,8 +221,11 @@ a {
 .plat {
     display: flex;
     justify-content: space-between;
-    width: 98%;
-    margin: auto;
+    width: 90%;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
 }
 /*page1*/
 .page1{
@@ -340,8 +344,11 @@ section {
     display: flex;
     flex-direction: column;
     width: 290px;
-    min-height: 360px;
-    margin: 20px;
+    height: 360px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
     text-align: center;
     display: flex;
     justify-content: center;
