@@ -294,7 +294,8 @@ div {
     color: #2b91f8;
     font-family: "kalam", cursive;
 }
-.page3 .font_color_pages {
+.page3, .font_color_pages {
+
     color: #000000;
 }
 /*page4*/
@@ -382,7 +383,6 @@ section {
 /*soulignement decoration*/
 .line_left1 {
     display: inline-block;
-    height: 12px;
     width: 220px;
     margin-top: auto;
     margin-right: auto;
@@ -391,7 +391,6 @@ section {
 }
 .line_left2 {
     display: inline-block;
-    height: 12px;
     width: 220px;
     margin-top: auto;
     margin-right: auto;
@@ -400,7 +399,6 @@ section {
 }
 .line_right1 {
     display: inline-block;
-    height: 12px;
     width: 220px;
     margin-top: auto;
     margin-right: 0px;
@@ -409,7 +407,6 @@ section {
 }
 .line_right2 {
     display: inline-block;
-    height: 12px;
     width: 220px;
     margin-top: auto;
     margin-right: 0px;
