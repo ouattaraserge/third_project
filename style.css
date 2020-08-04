@@ -165,7 +165,7 @@ header {
 }
 header h1 {
     color: #fdcb46;
-    font-size: 2em;
+    font-size: 3em;
     font-weight: bold;
     margin: auto;
     text-align: center;
@@ -459,7 +459,7 @@ aside {
 .loading {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    font-size: 1.2em;
+    font-size: 1.8em;
     padding-bottom: 10px;
 }
 .loading span {
@@ -501,7 +501,7 @@ footer .contact {
 }
 footer h2 {
     font-family: "Montserrat", sans-serif;
-    font-size: 1.2em;
+    font-size: 1.8em;
     font-weight: 500;
 }
 /*animation footer*/
