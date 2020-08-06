@@ -19,8 +19,10 @@
     src: url('polices/judson/Judson-Regular.otf');
     font-family: 'montserrat';
     src: url('polices/montserrat/montserrat-regular.otf');
-    font-family: 'kalam';
+    font-family: kalam;
     src: url('polices/kalam/kalam-regular.ttf');
+    font-family: devonshire;
+    src: url('polices/devonshire/Devonshire-Regular.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -102,6 +104,7 @@ body {
   }
   .menu1 .font1 {
     font-family: "Devonshire", cursive;
+    font-size: 2.5em;
   }
   
 /*Menu2 page principale*/
@@ -165,7 +168,7 @@ header {
 }
 header h1 {
     color: #fdcb46;
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: bold;
     margin: auto;
     text-align: center;
@@ -412,6 +415,53 @@ section {
     margin-right: 0px;
     margin-bottom: auto;
     margin-left: auto;
+}
+.border {
+    display: inline;
+    text-decoration-line: none;
+    transition: background-size 0.5s;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    transition-property: background-size;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+.border:hover {
+    background-size: 100% 100%;
+}
+.border1 {
+    color: #3c1218;
+    background: linear-gradient(to top, #f04a5e 0%, #f04a5e 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+}
+.border2 {
+    color: #c77412;
+    background: linear-gradient(to top, #c77412 0%, #c77412 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+
+}
+.border3 {
+    color: #a56799;
+    background: linear-gradient(to top, #a56799 0%, #a56799 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+}
+.border4 {
+    color: #6e4ccc;
+    background: linear-gradient(to top, #6e4ccc 0%, #6e4ccc 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+}
+.border5 {
+    color: #000000;
+    background: linear-gradient(to top, #0431df 0%, #0431df 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+}
+.border6 {
+    color: #000000;
+    background: linear-gradient(to top, #518cf0 0%, #518cf0 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+}
+.border7 {
+    color: #000000;
+    background: linear-gradient(to top,#0887fb 0%, #0887fb 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+}
+.border8 {
+    color: #000000;
+    background: linear-gradient(to top, #bfff7e 0%, #bfff7e 10%, transparent 10.01%) no-repeat left bottom/0 100%;
 }
 /*animation zoom*/
 .zoom {
