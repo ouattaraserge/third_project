@@ -7,7 +7,7 @@
         url('polices/amble/Amble-Regular-webfont.ttf') format('truetype'),
         url('polices/amble/Amble-Regular-webfont.svg#ambleregular') format('svg');
     font-family: 'Dancing';
-    src: url('polices/Dancing/Dancing Sript-Regular.otf');
+    src: url('polices/Dancing/DancingSript-Regular.otf');
     font-family: 'sourceserifpro';
     src: url('polices/sourceserifpro/SourceSerifPro-Regular.otf');
     font-family: 'kurale';
@@ -58,12 +58,13 @@ main {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 75%;
+    width: 80%;
 }
 body {
     background-color: azure;
     display: block;
     margin: auto;
+    width: auto;
 }
 .menu {
     display: flex;
@@ -74,7 +75,7 @@ body {
     margin-left: 30px;
 }
 .menu h2 {
-    font-size: 2.3em;
+    font-size: 2.1em;
 }
 .menu h3 {
     font-size: 1.7em;
@@ -86,7 +87,7 @@ body {
     margin-right: auto;
     margin-bottom: 30px;
     margin-left: auto;
-    width: 90%;
+    width: 60%;
     height: auto;
 }
 /*menu1 page principale*/
@@ -163,7 +164,10 @@ header {
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 90px;
+    height: 100px;
+    width: auto;
+    margin-left: 18%;
+    margin-right: 18%;
     font-family: "montserrat", sans-serif;
 }
 header h1 {
@@ -213,7 +217,7 @@ a {
 .subtitle1 {
     display: flex;
     justify-content: center;
-    width: 90%;
+    width: 70%;
     margin: auto;
 }
 .subtitle2 {
@@ -224,7 +228,7 @@ a {
 .plat {
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 60%;
     margin-top: auto;
     margin-right: auto;
     margin-bottom: auto;
@@ -339,6 +343,7 @@ div {
 }
 p {
     display: block;
+    font-size: 1.3em;
     margin-block-start: 1em;
     margin-inline-end: 1em;
     margin-inline-start: 0px;
@@ -386,15 +391,15 @@ section {
 /*soulignement decoration*/
 .line_left1 {
     display: inline-block;
-    width: 220px;
+    width: 230px;
     margin-top: auto;
     margin-right: auto;
     margin-bottom: auto;
-    margin-left: 0px;
+    margin-left: 0%;
 }
 .line_left2 {
     display: inline-block;
-    width: 220px;
+    width: 230px;
     margin-top: auto;
     margin-right: auto;
     margin-bottom: auto;
@@ -402,7 +407,7 @@ section {
 }
 .line_right1 {
     display: inline-block;
-    width: 220px;
+    width: 230px;
     margin-top: auto;
     margin-right: 0px;
     margin-bottom: auto;
@@ -410,7 +415,7 @@ section {
 }
 .line_right2 {
     display: inline-block;
-    width: 220px;
+    width: 230px;
     margin-top: auto;
     margin-right: 0px;
     margin-bottom: auto;
@@ -534,12 +539,13 @@ aside {
 /* footer */
 footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #579c87;
     color: #fdcb46;
     text-align: center;
-    height: 60px;
-    margin: auto;
+    height: 75px;
+    margin-left: 18%;
+    margin-right: 18%;
     bottom: 0;
     position: sticky;
 }
@@ -585,6 +591,7 @@ footer h2 {
     main {
         display: flex;
         flex-direction: column;
+        width: 260px;
     }
     body {
         display: flex;
