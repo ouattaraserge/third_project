@@ -63,8 +63,8 @@ body {
     background-color: azure;
     display: block;
     margin: auto;
-    width: 1190px;
-    height: 1684px;
+    width: auto;
+    height: auto;
 }
 .menu {
     display: flex;
@@ -73,7 +73,7 @@ body {
     margin-right: 30px;
     margin-bottom: 30px;
     margin-left: 30px;
-    width: auto;
+    width: 100%;
 }
 .menu h2 {
     font-size: 2.1em;
@@ -88,7 +88,7 @@ body {
     margin-right: auto;
     margin-bottom: 30px;
     margin-left: auto;
-    width: 70%;
+    width: 80%;
     height: auto;
 }
 /*menu1 page principale*/
@@ -169,8 +169,8 @@ header {
     flex-direction: column;
     height: 100px;
     width: auto;
-    margin-left: 12%;
-    margin-right: 12%;
+    margin-left: 8%;
+    margin-right: 8%;
     font-family: "montserrat", sans-serif;
 }
 header h1 {
@@ -551,8 +551,8 @@ footer {
     color: #fdcb46;
     text-align: center;
     height: 75px;
-    margin-left: 12%;
-    margin-right: 12%;
+    margin-left: 8%;
+    margin-right: 8%;
     bottom: 0;
     position: sticky;
 }
@@ -595,14 +595,21 @@ footer h2 {
 
 /*mise en forme pour mobile de 720 px à 1024px */
 @media only screen and (max-width: 1024px) and (min-width: 720px) {
+    header {
+        width: auto;
+        margin: 0px;
+    }
     main {
         display: flex;
         flex-direction: column;
-        width: 260px;
+        width: auto;
+        margin: 0px;
     }
     body {
         display: flex;
         flex-direction: column;
+        width: auto;
+        margin: 0px;
     }
     .Menu {
         display: flex;
@@ -621,6 +628,7 @@ footer h2 {
         margin: 0px;
         font-size: 0.9em;
         padding-bottom: 12px;
+        width: auto;
     }
     .line {
         width: 30%;
@@ -636,8 +644,19 @@ footer h2 {
 
     /*écran de moins de 720px */
     @media only screen and (max-width: 720px) {
+        header {
+            width: auto;
+            margin: auto;
+
+        }
+        main {
+            margin: 0px;
+        }
+        body {
+            margin: 0px;
+        }
         section {
-            width: 260px;
+            width: auto;
             height: 330px;
         }
         .menu {
@@ -647,7 +666,7 @@ footer h2 {
             margin: auto;
         }
         .page {
-            padding: 7px;
+            padding: 0px;
         }
         .page h1 {
             font-size: 2em;
@@ -675,5 +694,6 @@ footer h2 {
             margin: 0px;
             font-size: 0.9em;
             padding-bottom: 12px;
+            width: auto;
         }
     }
