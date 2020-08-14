@@ -6,8 +6,6 @@
         url('polices/amble/Amble-Regular-webfont.woff') format('woff'),
         url('polices/amble/Amble-Regular-webfont.ttf') format('truetype'),
         url('polices/amble/Amble-Regular-webfont.svg#ambleregular') format('svg');
-    font-family: 'Dancing';
-    src: url('polices/Dancing/DancingSript-Regular.otf');
     font-family: 'sourceserifpro';
     src: url('polices/sourceserifpro/SourceSerifPro-Regular.otf');
     font-family: 'kurale';
@@ -23,6 +21,8 @@
     src: url('polices/kalam/kalam-regular.ttf');
     font-family: devonshire;
     src: url('polices/devonshire/Devonshire-Regular.ttf');
+    font-family: 'dancing';
+    src: url('polices/Dancing/DancingSript-Regular.otf');
     font-weight: normal;
     font-style: normal;
 }
@@ -47,39 +47,82 @@
         opacity: 0;
     }
 }
+
 /*page principale*/
-main {
-    background-color: #ffffff;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    padding-bottom: 40px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
 body {
     background-color: azure;
     display: block;
-    margin: auto;
-    width: auto;
-    height: auto;
+    margin-left: 10%;
+    padding: 0;
+    justify-content: center;
+}
+main {
+    background-color: #ffffff;
+    margin-top: auto;
+    margin-right: 4em;
+    margin-bottom: auto;
+    margin-left: auto;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
 }
 .menu {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
-    margin-right: 30px;
-    margin-bottom: 30px;
-    margin-left: 30px;
-    width: 100%;
+    padding-top: 4em;
+    padding-right: 5px;
+    padding-bottom: 4em;
+    padding-left: 5px;
+    margin-right: 130px;
+    width: auto;
+
+
+}
+section {
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+    height: 759px;
+    margin-top: 20px;
+    margin-right: 80px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 20px #bbba;
 }
 .menu h2 {
-    font-size: 2.1em;
+    font-size: 4.3em;
 }
 .menu h3 {
-    font-size: 1.7em;
+    font-size: 3.5em;
+}
+/* header */
+header {
+    font-size: 1.3em;
+    letter-spacing: -0.075em;
+    background-color: #579c87;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 1498px;
+    height: 239px;
+    font-family: "montserrat", sans-serif;
+}
+header h1 {
+    color: #fdcb46;
+    font-size: 4.4em;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    letter-spacing: -0.075em;
 }
 .carte-menu {
     display: flex;
@@ -88,7 +131,7 @@ body {
     margin-right: auto;
     margin-bottom: 30px;
     margin-left: auto;
-    width: 80%;
+    width: 90%;
     height: auto;
 }
 /*menu1 page principale*/
@@ -97,6 +140,7 @@ body {
     color: #3c1218;
     font-family: 'kalam', cursive;
     font-weight: lighter;
+    width: 540px;
 }
 .menu1 a {
     background-color: #fcdfdb;
@@ -106,7 +150,7 @@ body {
   }
   .menu1 .font1 {
     font-family: "Devonshire", cursive;
-    font-size: 2.5em;
+    font-size: 3.5em;
   }
   
 /*Menu2 page principale*/
@@ -115,7 +159,7 @@ body {
     color: #c77412;
     font-family: "Source Serif Pro", serif;
     font-weight: 100;
-
+    width: 540px;
   }
   
   .menu2 a {
@@ -130,6 +174,7 @@ body {
     background-color: #f9f9f9;
     color: #2b91f8;
     font-family: "kalam", cursive;
+    width: 540px;
   }
   
   .menu3 a {
@@ -140,14 +185,17 @@ body {
   
   .menu3 h2 {
     font-weight: 300;
-    font-family: "dancing Sript" ,cursive;
+    font-family: "dancingSript" ,cursive;
   }
-  
+  .menu3 h3 {
+      font-size: 3em;
+  }
   /*Menu4 page principale*/
   .menu4 {
     background-color: #fdfffd;
     color: #72bf56;
     font-family: "Kalam", cursive;
+    width: 540px;
   }
   
   .menu4 a {
@@ -159,29 +207,6 @@ body {
   .menu4 h2 {
     font-weight: 300;
   }
-/* header */
-header {
-    font-size: 1.3em;
-    background-color: #579c87;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 100px;
-    width: auto;
-    margin-left: 8%;
-    margin-right: 8%;
-    font-family: "montserrat", sans-serif;
-}
-header h1 {
-    color: #fdcb46;
-    font-size: 2.4em;
-    font-weight: bold;
-    margin: auto;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-}
 h1 {
     font-size: 2.4em;
     display: block;
@@ -192,7 +217,7 @@ h1 {
     font-family: 'verdana';
 }
 h2 {
-    font-size: 1.7em;
+    font-size: 1.8em;
     display: block;
     margin-block-start: 0.83em;
     margin-block-end: 0.83;
@@ -231,7 +256,7 @@ a {
 .plat {
     display: flex;
     justify-content: space-between;
-    width: 92%;
+    width: auto;
     margin-top: auto;
     margin-right: auto;
     margin-bottom: auto;
@@ -243,10 +268,12 @@ a {
     color: #3c1218;
     font-family: "kalam", cursive;
     font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 0;
     padding-top: 30px;
-    padding-right: 50px;
+    padding-right: 100px;
     padding-bottom: 30px;
-    padding-left: 50px;
+    padding-left: 100px;
 }
 .page1 a {
     background-color: #fcdfdb;
@@ -274,6 +301,7 @@ a {
     padding-right: 50px;
     padding-bottom: 30px;
     padding-left: 50px;
+    width: auto;
 }
 .page2 a {
     background-color: #fff5fe;
@@ -299,6 +327,7 @@ div {
     padding-right: 50px;
     padding-bottom: 30px;
     padding-left: 50px;
+    width: auto;
 }
 .page3 h2 {
     font-weight: 400;
@@ -318,6 +347,7 @@ div {
     color: #72bf56;
     font-family: 'kalam',cursive;
     padding: 30px 50px 30px 50px;
+    width: auto;
 }
 .page4 a {
     background-color: #fdfffd;
@@ -336,8 +366,12 @@ div {
     color: #3c1218;
     padding: 20px;
     text-align: left;
-}
-  
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    width: auto;
+} 
 .page5 a {
     color: #579c87;
     text-align: left;
@@ -355,20 +389,6 @@ p {
     margin-inline-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-}
-section {
-    display: flex;
-    flex-direction: column;
-    width: 290px;
-    height: 360px;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    box-shadow: 0 0 20px #bbba;
 }
 .degrade1 {
     background-image: linear-gradient(0.25turn, #c77412 30%, #905bfd 70%);
@@ -505,14 +525,16 @@ section {
     height: 35px;
     width: 35px;
 }
+/*prochainement*/
 aside {
     display: flex;
     flex-direction: column;
     background-color: #579c87;
     color: #fdcb46;
-    width: 260px;
-    height: 50px;
+    width: 650px;
+    height: 116px;
     margin: auto;
+    margin-top: 10px;
     text-align: center;
     border-radius: 10px;
     justify-content: center;
@@ -521,7 +543,8 @@ aside {
 .loading {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    font-size: 1.8em;
+    font-size: 3.8em;
+    margin-top: 10px;
     padding-bottom: 10px;
 }
 .loading span {
@@ -534,7 +557,7 @@ aside {
     animation-fill-mode: none;
     animation-play-state: running;
     animation-name: dots;
-    font-size: 2em;
+    font-size: 1.6em;
 }
 .loading .dot2 {
     animation-delay: 0.4s;
@@ -550,21 +573,20 @@ footer {
     background-color: #579c87;
     color: #fdcb46;
     text-align: center;
-    height: 75px;
-    margin-left: 8%;
-    margin-right: 8%;
+    width: 1498px;
+    height: 134px;
     bottom: 0;
     position: sticky;
 }
 footer .contact {
     padding-top: 0px;
-    padding-right: 30px;
+    padding-right: 40px;
     padding-bottom: 0px;
-    padding-left: 30px;
+    padding-left: 40px;
 }
 footer h2 {
     font-family: "Montserrat", sans-serif;
-    font-size: 1.8em;
+    font-size: 3.2em;
     font-weight: 500;
 }
 /*animation footer*/
@@ -593,34 +615,147 @@ footer h2 {
 
 
 
+
 /*mise en forme pour mobile de 720 px à 1024px */
 @media only screen and (max-width: 1024px) and (min-width: 720px) {
     header {
-        width: auto;
-        margin: 0px;
+        width: 100%;
+        height: 80px;
+        font-size: 1.9em;
     }
-    main {
+    header h1 {
+        color: #fdcb46;
+        font-size: 1.8em;
+        font-weight: bold;
+        margin: auto;
+        text-align: center;
         display: flex;
-        flex-direction: column;
-        width: auto;
-        margin: 0px;
-    }
-    body {
-        display: flex;
-        flex-direction: column;
-        width: auto;
-        margin: 0px;
-    }
+        justify-content: center;
+        letter-spacing: -0.075px;
+    }  
+/*page principale*/
+body {
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: auto;
+    padding: 0;
+}
+main {
+    background-color: #ffffff;
+    margin-top: 2px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    padding-bottom: 1px;
+    padding-top: 2px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+
+}
+section {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin-top: 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 2px #bbba;
+}
     .Menu {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         flex-direction: column;
         margin: auto;
     }
-    aside {
-
-        margin-top: 30px;
+    .menu1 {
+        background-color: #fcdfdb;
+        color: #3c1218;
+        font-family: 'kalam', cursive;
+        font-weight: lighter;
+        width: auto;
+        height: auto;
     }
+    .menu2 {
+        background-color: #fff5fe;
+        color: #c77412;
+        font-family: "Source Serif Pro", serif;
+        font-weight: 100;
+        width: auto;
+        height: auto;
+      }
+      .menu3 {
+        background-color: #f9f9f9;
+        color: #2b91f8;
+        font-family: "kalam", cursive;
+        width: auto;
+        height: auto;
+      }
+      .menu4 {
+        background-color: #fdfffd;
+        color: #72bf56;
+        font-family: "Kalam", cursive;
+        width: auto;
+        height: auto;
+      }
+      /*prochainement*/
+aside {
+    display: flex;
+    flex-direction: column;
+    background-color: #579c87;
+    color: #fdcb46;
+    width: auto;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+/*points de suspension de prochainement*/
+.loading {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    padding-bottom: 1px;
+}
+.loading span {
+    display: inline-block;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-duration: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: dots;
+    font-size: 1.3em;
+}
+.loading .dot2 {
+    animation-delay: 0.4s;
+}
+.loading .dot3 {
+    animation-delay: 0.8s;
+}
+    
     footer {
         display: flex;
         justify-content: space-around;
@@ -629,13 +764,19 @@ footer h2 {
         font-size: 0.9em;
         padding-bottom: 12px;
         width: auto;
+        height: 50px;
+    }
+    footer h2 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 1.2em;
+        font-weight: 500;
     }
     .line {
         width: 30%;
         height: 60;
     }
     .page {
-        padding: 30%;
+        padding: 20%;
     }
     .page h2 {
         font-size: 1.5em;
@@ -646,30 +787,103 @@ footer h2 {
     @media only screen and (max-width: 720px) {
         header {
             width: auto;
+            height: 60px;
             margin: auto;
-
+            font-size: 1.4em;
         }
-        main {
-            margin: 0px;
-        }
-        body {
-            margin: 0px;
-        }
-        section {
-            width: auto;
-            height: 330px;
-        }
-        .menu {
+        header h1 {
+            color: #fdcb46;
+            font-size: 1.8em;
+            font-weight: bold;
+            margin: auto;
+            text-align: center;
             display: flex;
             justify-content: center;
-            flex-direction: column;
-            margin: auto;
+            letter-spacing: 0.1px;
+
         }
+        
+/*page principale*/
+body {
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: auto;
+    padding: 0;
+}
+main {
+    background-color: #ffffff;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+
+}
+section {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 2px #bbba;
+}
+        .menu1 {
+            background-color: #fcdfdb;
+            color: #3c1218;
+            font-family: 'kalam', cursive;
+            font-weight: lighter;
+            width: auto;
+            height: auto;
+        }
+        .menu2 {
+            background-color: #fff5fe;
+            color: #c77412;
+            font-family: "Source Serif Pro", serif;
+            font-weight: 100;
+            width: auto;
+            height: auto;
+          }
+          .menu3 {
+            background-color: #f9f9f9;
+            color: #2b91f8;
+            font-family: "kalam", cursive;
+            width: 100%;
+            height: auto;
+          }
+          .menu4 {
+            background-color: #fdfffd;
+            color: #72bf56;
+            font-family: "Kalam", cursive;
+            width: auto;
+            height: auto;
+          }
         .page {
             padding: 0px;
         }
         .page h1 {
-            font-size: 2em;
+            font-size: 1.3em;
         }
         .page h2 {
             font-size: 1.3em;
@@ -683,9 +897,45 @@ footer h2 {
             width: 15%;
             height: 80%;
         }
-        aside {
-            margin-top: 30px;
-        }
+        /*prochainement*/
+aside {
+    display: flex;
+    flex-direction: column;
+    background-color: #579c87;
+    color: #fdcb46;
+    width: auto;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+/*points de suspension de prochainement*/
+.loading {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 1.4em;
+    padding-bottom: 5px;
+}
+.loading span {
+    display: inline-block;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-duration: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: dots;
+    font-size: 1.5em;
+}
+.loading .dot2 {
+    animation-delay: 0.4s;
+}
+.loading .dot3 {
+    animation-delay: 0.8s;
+}
         footer {
             display: flex;
             justify-content: space-around;
@@ -693,7 +943,23 @@ footer h2 {
             bottom: 0;
             margin: 0px;
             font-size: 0.9em;
-            padding-bottom: 12px;
-            width: auto;
+            padding-bottom: 1px;
+            width: 100%;
+            height: auto;
+            background-color: #579c87;
+            color: #fdcb46;
+            text-align: center;
+            margin: 0px;
+        }
+        footer .contact {
+            padding-top: 0px;
+            padding-right: 0px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+        }
+        footer h2 {
+            font-family: "Montserrat", sans-serif;
+            font-size: 1.2em;
+            font-weight: 500;
         }
     }
