@@ -52,27 +52,26 @@
 body {
     background-color: azure;
     display: block;
-    margin-left: 15%;
     padding: 0;
     justify-content: center;
 }
 main {
     background-color: #ffffff;
-    margin-top: auto;
-    margin-right: 3em;
-    margin-bottom: auto;
-    margin-left: auto;
+    margin: auto;
     padding-bottom: 30px;
     padding-top: 10px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    width: auto;
+    width: 1498px;
 }
 #container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin: auto;
 }
 .menu {
     display: flex;
@@ -91,12 +90,11 @@ main {
     flex-direction: column;
     width: 540px;
     height: 759px;
-    margin-top: 20px;
-    margin-right: 80px;
-    margin-bottom: 5px;
-    margin-left: 20px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 60px;
+    margin-left: 50px;
     text-align: center;
-    display: flex;
     justify-content: center;
     box-shadow: 0 0 20px #bbba;
 }
@@ -118,6 +116,7 @@ header {
     width: 1498px;
     height: 239px;
     font-family: "montserrat", sans-serif;
+    margin: auto;
 }
 header h1 {
     color: #fdcb46;
@@ -276,7 +275,7 @@ a {
 .plat {
     display: flex;
     justify-content: space-between;
-    width: auto;
+    width: 90%;
     margin-top: auto;
     margin-right: auto;
     margin-bottom: auto;
@@ -288,14 +287,11 @@ a {
     color: #3c1218;
     font-family: "kalam", cursive;
     font-weight: 100;
-    margin-top: 0;
-    margin-right: auto;
-    margin-bottom: 0;
-    margin-left: 50px;
+    margin: auto;
     padding-top: 30px;
-    padding-right: 100px;
-    padding-bottom: 30px;
-    padding-left: 100px;
+    padding-right: 140px;
+    padding-bottom: 10px;
+    padding-left: 170px;
     width: 75%;
     text-align: center;
 }
@@ -321,10 +317,7 @@ a {
     color: #c77412;
     font-family: 'Source Serif Pro', serif;
     font-weight: 100;
-    margin-top: 0;
-    margin-right: auto;
-    margin-bottom: 0;
-    margin-left: 50px;
+    margin: auto;
     padding-top: 30px;
     padding-right: 100px;
     padding-bottom: 30px;
@@ -570,6 +563,7 @@ aside {
     height: 116px;
     margin: auto;
     margin-top: 10px;
+    margin-bottom: 50px;
     text-align: center;
     border-radius: 10px;
     justify-content: center;
@@ -612,6 +606,7 @@ footer {
     height: 134px;
     bottom: 0;
     position: sticky;
+    margin: auto;
 }
 footer .contact {
     padding-top: 0px;
@@ -693,7 +688,7 @@ body {
     display: flex;
     flex-direction: column;
     width: auto;
-    margin: 0;
+    margin: auto;
     padding: 0;
 }
 main {
@@ -712,6 +707,7 @@ main {
 #container {
     display: flex;
     flex-direction: column;
+    height: auto;
 }
 .menu {
     display: flex;
@@ -729,7 +725,6 @@ main {
     padding-top: 1em;
 }
 .element {
-    display: flex;
     flex-direction: column;
     width: auto;
     margin-top: 1px;
@@ -856,10 +851,10 @@ aside {
 }
 
     /*écran de moins de 720px */
-    @media only screen and (max-width: 720px) {
+    @media screen and (max-width: 720px) {
         header {
             width: 100%;
-            height: 60px;
+            height: 70px;
             margin: auto;
             font-size: 1.4em;
         }
@@ -897,10 +892,10 @@ aside {
 /*page principale*/
 body {
     background-color: azure;
-    display: flex;
+    display: block;
     flex-direction: column;
     width: auto;
-    margin: auto;
+    margin: 0;
     padding: 0;
 }
 main {
@@ -908,7 +903,7 @@ main {
     margin-top: auto;
     margin-right: auto;
     margin-bottom: auto;
-    margin-left: auto;
+    margin-left: 0;
     padding-bottom: 10px;
     padding-top: 10px;
     display: flex;
@@ -917,30 +912,20 @@ main {
     width: auto;
 }
 #container {
-    display: flex;
     flex-direction: column;
+    width: auto;
+    height: auto;
 }
 .menu {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
 
 }
 .element {
-    display: flex;
-    flex-direction: column;
     width: auto;
-    margin-top: 2px;
-    margin-right: 2px;
-    margin-bottom: 2px;
-    margin-left: 2px;
-    box-shadow: 0 0 2px #bbba;
-    font-size: 1em;
-    text-align: center;
+    height: auto;
+    
 }
 .element h2 {
     font-size: 2.5em;
@@ -953,53 +938,54 @@ main {
     text-align: center;
     padding-top: 1em;
 }
-        .menu1 {
-            background-color: #fcdfdb;
-            color: #3c1218;
-            font-family: 'kalam', cursive;
-            font-weight: lighter;
-            width: auto;
-        }
-        .menu2 {
-            background-color: #fff5fe;
-            color: #c77412;
-            font-family: "Source Serif Pro", serif;
-            font-weight: 100;
-            width: auto;
-            height: auto;
-          }
-          .menu3 {
-            background-color: #f9f9f9;
-            color: #2b91f8;
-            font-family: "kalam", cursive;
-            width: 100%;
-            height: auto;
-          }
-          .menu4 {
-            background-color: #fdfffd;
-            color: #72bf56;
-            font-family: "Kalam", cursive;
-            width: auto;
-            height: auto;
-          }
-        .page {
-            padding: 0px;
-        }
-        .page h1 {
-            font-size: 1.3em;
-        }
-        .page h2 {
-            font-size: 1.3em;
-        }
-        .page .plat {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-        }
-        .line {
-            width: 15%;
-            height: 80%;
-        }
+.menu1 {
+    background-color: #fcdfdb;
+    color: #3c1218;
+    font-family: 'kalam', cursive;
+    font-weight: lighter;
+    width: auto;
+    height: auto;
+}
+.menu2 {
+    background-color: #fff5fe;
+    color: #c77412;
+    font-family: "Source Serif Pro", serif;
+    font-weight: 100;
+    width: auto;
+    height: auto;
+}
+.menu3 {
+    background-color: #f9f9f9;
+    color: #2b91f8;
+    font-family: "kalam", cursive;
+    width: 100%;
+    height: auto;
+}
+.menu4 {
+    background-color: #fdfffd;
+    color: #72bf56;
+    font-family: "Kalam", cursive;
+    width: auto;
+    height: auto;
+}
+.page {
+    padding: 0px;
+}
+.page h1 {
+    font-size: 1.3em;
+}
+.page h2 {
+    font-size: 1.3em;
+}
+.page .plat {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.line {
+    width: 15%;
+    height: 80%;
+}
         /*prochainement*/
 aside {
     display: flex;
