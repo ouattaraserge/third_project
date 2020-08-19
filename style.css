@@ -58,7 +58,7 @@ body {
 main {
     background-color: #ffffff;
     margin: auto;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
     padding-top: 10px;
     display: flex;
     justify-content: space-around;
@@ -289,11 +289,7 @@ a {
     font-family: "Devonshire", cursive;
     font-weight: 100;
     margin: auto;
-    padding-top: 30px;
-    padding-right: 140px;
-    padding-bottom: 10px;
-    padding-left: 170px;
-    width: 75%;
+    width: 90%;
     text-align: center;
 }
 .page1 a {
@@ -320,10 +316,8 @@ a {
     font-weight: 100;
     margin: auto;
     padding-top: 30px;
-    padding-right: 100px;
     padding-bottom: 30px;
-    padding-left: 100px;
-    width: 75%;
+    width: 90%;
     text-align: center;
 }
 .page2 a {
@@ -348,14 +342,10 @@ div {
     font-family: "kalam", cursive;
     font-weight: 100;
     margin-top: 0;
-    margin-right: auto;
     margin-bottom: 0;
-    margin-left: 50px;
     padding-top: 30px;
-    padding-right: 100px;
     padding-bottom: 30px;
-    padding-left: 100px;
-    width: 75%;
+    width: 90%;
     text-align: center;
 }
 .page3 h2 {
@@ -377,11 +367,8 @@ div {
     font-family: "kalam",cursive;
     font-weight: 100;
     margin-top: 0;
-    margin-right: auto;
     margin-bottom: 0;
-    margin-left: 50px;
-    padding: 30px 100px 30px 100px;
-    width: 75%;
+    width: 90%;
 
     text-align: center;
 }
@@ -492,8 +479,8 @@ p {
     background-size: 100% 100%;
 }
 .border1 {
-    color: #3c1218;
-    background: linear-gradient(to top, #f04a5e 0%, #f04a5e 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+    color: #3b1d09f1;
+    background: linear-gradient(to top, #2e1303de 0%, #20080de1 10%, transparent 10.01%) no-repeat left bottom/0 100%;
 }
 .border2 {
     color: #c77412;
@@ -656,7 +643,9 @@ footer h2 {
         height: 110px;
         font-size: 1.2em;
         letter-spacing: -0.075px;
-
+    }
+    header h1 {
+        font-size: 3.5em;
     }
     footer {
         width: 100%;
@@ -705,9 +694,11 @@ footer h2 {
         margin-bottom: 0;
     }
     aside {
-        width: 80%;
-        margin: auto;
-        margin-top: 20px;
+        width: 70%;
+        height: 60px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+
     }
     .loading {
         font-weight: 200;
@@ -740,7 +731,16 @@ footer h2 {
     p {
         font-size: 1.2em;
     }
+    header {
+        width: 100%;
+        height: 100px;
+        letter-spacing: -0.075px;
+    }
+    header h1 {
+        font-size: 2.8em;
+    }
     footer {
+        width: 100%;
         height: 85px;
     }
     .subtitle1, .subtitle2 {
@@ -748,6 +748,41 @@ footer h2 {
     }
     /*soulignement decoration*/
 .line_left1, .line_left2, .line_right1, .line_right2{
-    width: 75%;
+    width: 100%;
 }
+}
+/*ecrans de moins de 320px*/
+@media all and (max-device-width: 320px) {
+    header {
+        width: 100%;
+        height: 90px;
+        letter-spacing: -0.075px;
+    }
+    header h1 {
+        font-size: 1.8em;
+    }
+    aside {
+        width: 70%;
+        height: 50px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        padding-top: 5px;
+    }
+    .loading {
+        font-size: 1.4em;
+    }
+    footer {
+        width: 100%;
+        height: 60px;
+    }
+    footer h2 {
+        font-size: 1em;
+    }
+    main {
+        width: 100%;
+    }
+    .line_left1, .line_left2, .line_right1, .line_right2{
+        width: 100%;
+    }
+
 }
