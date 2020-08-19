@@ -704,9 +704,8 @@ footer h2 {
         padding-bottom: 10px;
     }
     .page1, .page2, .page3, .page4, .page5 {
-        width: 100%;
+        width: 75%;
         height: 100%;
-        margin: auto;
     }
     .page1 .font1 {
         font-size: 1.3em;
@@ -729,4 +728,8 @@ footer h2 {
     footer {
         height: 85px;
     }
+    /*soulignement decoration*/
+.line_left1, .line_left2, .line_right1, .line_right2{
+    width: 100%;
+}
 }
