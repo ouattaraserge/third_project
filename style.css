@@ -665,6 +665,35 @@ footer h2 {
     .title {
         font-size: 1.5em;
     }
+    /*soulignement decoration*/
+.line_left1 {
+    width: 180px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: 0%;
+}
+.line_left2 {
+    width: 180px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: 0px;
+}
+.line_right1 {
+    width: 180px;
+    margin-top: auto;
+    margin-right: 0px;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+.line_right2 {
+    width: 180px;
+    margin-top: auto;
+    margin-right: 0px;
+    margin-bottom: auto;
+    margin-left: auto;
+}
 }
 /*ecrans de moins de 650px*/
 @media only screen and (max-width: 650px) {
@@ -750,6 +779,35 @@ footer h2 {
 .line_left1, .line_left2, .line_right1, .line_right2{
     width: 100%;
 }
+/*soulignement decoration*/
+.line_left1 {
+    width: 100px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: 0%;
+}
+.line_left2 {
+    width: 100px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: 0px;
+}
+.line_right1 {
+    width: 100px;
+    margin-top: auto;
+    margin-right: 0px;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+.line_right2 {
+    width: 100px;
+    margin-top: auto;
+    margin-right: 0px;
+    margin-bottom: auto;
+    margin-left: auto;
+}
 }
 /*ecrans de moins de 320px*/
 @media all and (max-device-width: 320px) {
@@ -784,5 +842,35 @@ footer h2 {
     .line_left1, .line_left2, .line_right1, .line_right2{
         width: 100%;
     }
+    /*soulignement decoration*/
+.line_left1 {
+
+    width: 100px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: 0%;
+}
+.line_left2 {
+    width: 100px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: 0px;
+}
+.line_right1 {
+    width: 100px;
+    margin-top: auto;
+    margin-right: 0px;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+.line_right2 {
+    width: 100px;
+    margin-top: auto;
+    margin-right: 0px;
+    margin-bottom: auto;
+    margin-left: auto;
+}
 
 }
