@@ -1,31 +1,24 @@
-@font-face {
-    font-family: 'ambleregular';
-    src: url('polices/amble/Amble-Regular-webfont.eot');
-    src: url('polices/amble/Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-        url('polices/amble/Amble-Regular-webfont.woff2') format('woff2'),
-        url('polices/amble/Amble-Regular-webfont.woff') format('woff'),
-        url('polices/amble/Amble-Regular-webfont.ttf') format('truetype'),
-        url('polices/amble/Amble-Regular-webfont.svg#ambleregular') format('svg');
-    font-family: 'sourceserifpro';
+/*@font-face {
+    font-family: sourceserifpro;
     src: url('polices/sourceserifpro/SourceSerifPro-Regular.otf');
-    font-family: 'kurale';
+    font-family: kurale;
     src: url('polices/kurale/Kurale-regular.otf');
-    font-family: 'kaushan';
+    font-family: kaushan;
     src: url('polices/kaushan/Kaushan Script-Regular.otf');
-    font-family: 'judson';
+    font-family: judson;
     src: url('polices/judson/Judson-Bold.otf');
     src: url('polices/judson/Judson-Regular.otf');
-    font-family: 'montserrat';
+    font-family: montserrat;
     src: url('polices/montserrat/montserrat-regular.otf');
     font-family: kalam;
     src: url('polices/kalam/kalam-regular.ttf');
     font-family: devonshire;
     src: url('polices/devonshire/Devonshire-Regular.ttf');
-    font-family: 'dancing';
-    src: url('polices/Dancing/DancingSript-Regular.otf');
+    font-family: dancing;
+    src: url('polices/dancing/DancingScript-Regular.otf');
     font-weight: normal;
     font-style: normal;
-}
+}*/
 /*keyframes wiggle*/
 @keyframes wiggle {
     25% {
@@ -115,7 +108,7 @@ header {
     flex-direction: column;
     width: 80%;
     height: 239px;
-    font-family: "montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: auto;
 }
 header h1 {
@@ -142,7 +135,7 @@ header h1 {
 .menu1 {
     background-color: #fcdfdb;
     color: #3c1218;
-    font-family: "Devonshire", cursive;
+    font-family: 'Devonshire', cursive;
     font-weight: lighter;
     width: 540px;
     height: 759px;
@@ -150,11 +143,11 @@ header h1 {
 .menu1 a {
     background-color: #fcdfdb;
     color: #3c1218;
-    font-family: "Devonshire", cursive;
+    font-family: 'Devonshire', cursive;
     font-weight: lighter;
   }
   .menu1 .font1 {
-    font-family: "Devonshire", cursive;
+    font-family: 'Devonshire', cursive;
     font-size: 3.5em;
   }
   
@@ -162,7 +155,7 @@ header h1 {
 .menu2 {
     background-color: #fff5fe;
     color: #c77412;
-    font-family: "Source Serif Pro", serif;
+    font-family: 'Source Serif Pro', serif;
     font-weight: 100;
     width: 540px;
     height: 759px;
@@ -171,7 +164,7 @@ header h1 {
   .menu2 a {
     background-color: #fff5fe;
     color: #c77412;
-    font-family: "Source Serif Pro", serif;
+    font-family: 'Source Serif Pro', serif;
     font-weight: 100;
   }
   
@@ -179,7 +172,7 @@ header h1 {
 .menu3 {
     background-color: #f9f9f9;
     color: #2b91f8;
-    font-family: "kalam", cursive;
+    font-family: 'Dancing Script', cursive;
     width: 540px;
     height: 759px;
   }
@@ -187,12 +180,12 @@ header h1 {
   .menu3 a {
     background-color: #f9f9f9;
     color: #2b91f8;
-    font-family: "Kalam", cursive;
+    font-family: 'Dancing Script', cursive;
   }
   
   .menu3 h2 {
     font-weight: 300;
-    font-family: "dancingSript" ,cursive;
+    font-family: 'Dancing Script', cursive;
   }
   .menu3 h3 {
       font-size: 3em;
@@ -201,7 +194,7 @@ header h1 {
   .menu4 {
     background-color: #fdfffd;
     color: #72bf56;
-    font-family: "Kalam", cursive;
+    font-family: 'Kalam', cursive;
     width: 540px;
     height: 759px;
   }
@@ -209,7 +202,7 @@ header h1 {
   .menu4 a {
     background-color: #fdfffd;
     color: #72bf56;
-    font-family: "Kalam", cursive;
+    font-family: 'Kalam', cursive;
   }
   
   .menu4 h2 {
@@ -286,7 +279,7 @@ a {
 .page1{
     background-color: #fcdfdb;
     color: #3c1218;
-    font-family: "Devonshire", cursive;
+    font-family: 'Kalam', cursive;
     font-weight: 100;
     margin: auto;
     width: 90%;
@@ -295,11 +288,11 @@ a {
 .page1 a {
     background-color: #fcdfdb;
     color: #3c1218;
-    font-family: "Devonshire", cursive;
+    font-family: 'Devonshire', cursive;
     font-weight: lighter;
 }
 .page1 .font1 {
-    font-family: "Devonshire", cursive;
+    font-family: 'Devonshire', cursive;
     font-size: 2.5em;
 }
 .page1 h2 {
@@ -312,7 +305,7 @@ a {
 .page2 {
     background-color: #fff5fe;
     color: #c77412;
-    font-family: "Source Serif Pro", serif;
+    font-family: 'Source Serif Pro', serif;
     font-weight: 100;
     margin: auto;
     padding-top: 30px;
@@ -323,7 +316,7 @@ a {
 .page2 a {
     background-color: #fff5fe;
     color: #c77412;
-    font-family: "Source Serif Pro", serif;
+    
     font-weight: 100;
 }
 .page2 #color2 {
@@ -339,7 +332,7 @@ div {
 .page3 {
     background-color: #f9f9f9;
     color: #2b91f8;
-    font-family: "kalam", cursive;
+    font-family: 'Kalam', cursive;
     font-weight: 100;
     margin-top: 0;
     margin-bottom: 0;
@@ -355,7 +348,7 @@ div {
 .page3 a {
     background-color: #f9f9f9;
     color: #2b91f8;
-    font-family: "kalam", cursive;
+    font-family: 'Dancing Script', cursive!important;
 }
 .page3, .font_color_pages {
     color: #000000;
@@ -364,7 +357,7 @@ div {
 .page4 {
     background-color: #fdfffd;
     color: #72bf56;
-    font-family: "kalam",cursive;
+    font-family: 'Kalam', cursive;
     font-weight: 100;
     margin-top: 0;
     margin-bottom: 0;
@@ -375,7 +368,7 @@ div {
 .page4 a {
     background-color: #fdfffd;
     color: #72bf56;
-    font-family: "kalam", cursive;
+    font-family: 'Kalam', cursive;
 }
 .page4 h2 {
     font-weight: 400;
@@ -408,7 +401,7 @@ p {
 }
 .degrade1 {
     background-image: linear-gradient(0.25turn, #c77412 30%, #905bfd 70%);
-    font-family: "Kurale", serif;
+    font-family: 'Kurale', serif;
     font-size: 2.5em;
     background-clip: initial;
     -webkit-background-clip: text;
@@ -417,7 +410,7 @@ p {
 .degrade2 {
     line-height: 70px;
     background-image: linear-gradient(0.25turn, #0431df 30%, #518cf0 50%, #0887fb 20%);
-    font-family: "DancingScript", cursive;
+    font-family: 'Dancing Script', cursive!important;
     font-size: 2.5em;
     background-clip: initial;
     -webkit-background-clip: text;
@@ -425,7 +418,7 @@ p {
 }
 .degrade3 {
     background-image: linear-gradient(0.25turn, #3d9339, #bfff7e);
-    font-family: "kaushan Script", cursive;
+    font-family: 'Kaushan Script', cursive;
     font-size: 2.5em;
     background-clip: initial;
     -webkit-background-clip: text;
@@ -434,7 +427,7 @@ p {
 /*soulignement decoration*/
 .line_left1 {
     display: inline-block;
-    width: 230px;
+    width: 320px;
     margin-top: auto;
     margin-right: auto;
     margin-bottom: auto;
@@ -442,7 +435,7 @@ p {
 }
 .line_left2 {
     display: inline-block;
-    width: 230px;
+    width: 320px;
     margin-top: auto;
     margin-right: auto;
     margin-bottom: auto;
@@ -450,7 +443,7 @@ p {
 }
 .line_right1 {
     display: inline-block;
-    width: 230px;
+    width: 320px;
     margin-top: auto;
     margin-right: 0px;
     margin-bottom: auto;
@@ -458,7 +451,7 @@ p {
 }
 .line_right2 {
     display: inline-block;
-    width: 230px;
+    width: 320px;
     margin-top: auto;
     margin-right: 0px;
     margin-bottom: auto;
@@ -527,7 +520,7 @@ p {
 .menu4 a {
     background-color: #fdfffd;
     color: #72bf56;
-    font-family: 'kalam',cursive;
+    font-family: 'Kalam', cursive;
 }
 .bottom_title {
     display: flex;
@@ -558,7 +551,7 @@ aside {
 }
 /*points de suspension de prochainement*/
 .loading {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 3.8em;
     margin-top: 10px;
@@ -603,7 +596,7 @@ footer .contact {
     padding-left: 40px;
 }
 footer h2 {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 3.2em;
     font-weight: 500;
 }
@@ -652,7 +645,7 @@ footer h2 {
         font-size: 1em;
     }
     footer h2 {
-        font-family: "Montserrat", sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 1.5em;
         font-weight: 500;
     }
