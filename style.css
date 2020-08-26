@@ -1,4 +1,4 @@
-/*@font-face {
+@font-face {
     font-family: sourceserifpro;
     src: url('polices/sourceserifpro/SourceSerifPro-Regular.otf');
     font-family: kurale;
@@ -18,7 +18,7 @@
     src: url('polices/dancing/DancingScript-Regular.otf');
     font-weight: normal;
     font-style: normal;
-}*/
+}
 /*keyframes wiggle*/
 @keyframes wiggle {
     25% {
@@ -143,7 +143,7 @@ header h1 {
 .menu1 a {
     background-color: #fcdfdb;
     color: #3c1218;
-    font-family: 'Devonshire', cursive;
+    font-family: 'Kalam', cursive;
     font-weight: lighter;
   }
   .menu1 .font1 {
@@ -229,7 +229,7 @@ h1 {
     height: auto;
 }
 h2 {
-    font-size: 1.8em;
+    font-size: 2.1em;
     display: block;
     margin-block-start: 0.83em;
     margin-block-end: 0.83;
@@ -291,7 +291,7 @@ a {
     font-family: 'Devonshire', cursive;
     font-weight: lighter;
 }
-.page1 .font1 {
+.page1 .degrade, .page1 .font1 {
     font-family: 'Devonshire', cursive;
     font-size: 2.5em;
 }
@@ -343,7 +343,7 @@ div {
 }
 .page3 h2 {
     font-weight: 400;
-    font-size: 1.6em;
+    font-size: 2.5em;
 }
 .page3 a {
     background-color: #f9f9f9;
@@ -425,15 +425,7 @@ p {
     color: transparent;
 }
 /*soulignement decoration*/
-.line_left1 {
-    display: inline-block;
-    width: 320px;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    margin-left: 0%;
-}
-.line_left2 {
+.line_left1, .line_left2  {
     display: inline-block;
     width: 320px;
     margin-top: auto;
@@ -441,15 +433,7 @@ p {
     margin-bottom: auto;
     margin-left: 0px;
 }
-.line_right1 {
-    display: inline-block;
-    width: 320px;
-    margin-top: auto;
-    margin-right: 0px;
-    margin-bottom: auto;
-    margin-left: auto;
-}
-.line_right2 {
+.line_right1, .line_right2{
     display: inline-block;
     width: 320px;
     margin-top: auto;
@@ -659,28 +643,14 @@ footer h2 {
         font-size: 1.5em;
     }
     /*soulignement decoration*/
-.line_left1 {
-    width: 180px;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    margin-left: 0%;
-}
-.line_left2 {
+.line_left1, .line_left2 {
     width: 180px;
     margin-top: auto;
     margin-right: auto;
     margin-bottom: auto;
     margin-left: 0px;
 }
-.line_right1 {
-    width: 180px;
-    margin-top: auto;
-    margin-right: 0px;
-    margin-bottom: auto;
-    margin-left: auto;
-}
-.line_right2 {
+.line_right1, .line_right2 {
     width: 180px;
     margin-top: auto;
     margin-right: 0px;
@@ -773,28 +743,14 @@ footer h2 {
     width: 100%;
 }
 /*soulignement decoration*/
-.line_left1 {
-    width: 100px;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    margin-left: 0%;
-}
-.line_left2 {
+.line_left1, .line_left2 {
     width: 100px;
     margin-top: auto;
     margin-right: auto;
     margin-bottom: auto;
     margin-left: 0px;
 }
-.line_right1 {
-    width: 100px;
-    margin-top: auto;
-    margin-right: 0px;
-    margin-bottom: auto;
-    margin-left: auto;
-}
-.line_right2 {
+.line_right1, .line_right2{
     width: 100px;
     margin-top: auto;
     margin-right: 0px;
@@ -836,29 +792,14 @@ footer h2 {
         width: 100%;
     }
     /*soulignement decoration*/
-.line_left1 {
-
-    width: 100px;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    margin-left: 0%;
-}
-.line_left2 {
+.line_left1, .line_left2 {
     width: 100px;
     margin-top: auto;
     margin-right: auto;
     margin-bottom: auto;
     margin-left: 0px;
 }
-.line_right1 {
-    width: 100px;
-    margin-top: auto;
-    margin-right: 0px;
-    margin-bottom: auto;
-    margin-left: auto;
-}
-.line_right2 {
+.line_right1, .line_right2{
     width: 100px;
     margin-top: auto;
     margin-right: 0px;
