@@ -45,6 +45,7 @@
 body {
     background-color: azure;
     display: block;
+    margin: 0;
     padding: 0;
     justify-content: center;
 }
@@ -568,7 +569,6 @@ footer {
     color: #fdcb46;
     text-align: center;
     width: 80%;
-    height: 134px;
     bottom: 0;
     position: sticky;
     margin: auto;
