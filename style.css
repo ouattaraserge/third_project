@@ -737,7 +737,7 @@ footer h2 {
         background-color: #579c87;
         color: #fdcb46;
         text-align: center;
-        width: 80%;
+        width: 100%;
         bottom: 0;
         position: sticky;
         margin: auto;
@@ -782,18 +782,26 @@ footer h2 {
         margin-bottom: 40px;
         padding-top: 5px;
     }
+    .loading span {
+        font-size: 0.8em;
+    }
     .loading {
-        font-size: 1.4em;
+        font-size: 0.8em;
     }
     footer {
         width: 100%;
-        height: 60px;
+        height: 30px;
+        justify-content: center;
+    }
+    footer .contact {
+        padding-top: 0px;
+        padding-right: 3px;
+        padding-bottom: 3px;
+        padding-left: 3px;
+
     }
     footer h2 {
-        font-size: 1em;
-    }
-    main {
-        width: 100%;
+        font-size: 0.5em;
     }
     .line_left1, .line_left2, .line_right1, .line_right2{
         width: 100%;
@@ -812,6 +820,9 @@ footer h2 {
     margin-right: 0px;
     margin-bottom: auto;
     margin-left: auto;
+}
+main {
+    width: auto;
 }
 
 }
