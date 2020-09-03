@@ -665,6 +665,15 @@ footer h2 {
         height: 360px;
         margin:15px auto;
     }
+    #container {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 60px;
+        margin-bottom: 30px;
+        margin: auto;
+    }
     .element h2 {
         font-size: 2em;
     }
